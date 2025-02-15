@@ -1,0 +1,20 @@
+/* src/pages/Favorites.css */
+.favorites-page {
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .no-favorites {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }

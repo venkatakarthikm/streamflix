@@ -1135,6 +1135,18 @@ export const movies = [
             "director": "S. S. Rajamouli"
         },
         "genre": "Action,Comedy"
+    },
+    {
+        "title": "Nannaku Prematho",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfTL2P52OekH0_FvATAhMcH7YI9GXj7rTvKpQb4A-PY44_VT2AlNqIZaJ97RzzOBvg04&usqp=CAU",
+        "hoverPoster": "https://upload.wikimedia.org/wikipedia/en/3/3a/Nannaku_Prematho_poster.jpg",
+        "link": "https://drive.google.com/file/d/16-I5_nRRWQMHSVqV4zu1ZI0pWFDBK8bc/preview",
+        "cast": {
+            "hero": "N. T. Rama Rao Jr",
+            "heroine": "Rakul Preet Singh",
+            "director": "Sukumar"
+        },
+        "genre": "Action, Thriller"
     }
     
 ];

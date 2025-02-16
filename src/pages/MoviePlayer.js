@@ -16,7 +16,7 @@ const MoviePlayer = () => {
     // Fetch IMDB data
     const fetchImdbData = async () => {
       try {
-        const response = await axios.get(`http://www.omdbapi.com/?t=${title}&apikey=da7d8e0c`);
+        const response = await axios.get(`https://www.omdbapi.com/?t=${title}&apikey=da7d8e0c`);
         setImdbData(response.data);
       } catch (error) {
         console.error('Error fetching IMDB data:', error);

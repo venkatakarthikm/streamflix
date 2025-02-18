@@ -12,8 +12,7 @@ import "./HeroSlider.css";
 const featuredMovies = [
   {
     title: "Spider-Man: No Way Home",
-    mobileImage:
-      "https://wallpapercave.com/wp/wp10363322.jpg",
+    mobileImage: "https://wallpapercave.com/wp/wp10363322.jpg",
     desktopImage:
       "https://wallpapers.com/images/featured/spider-man-no-way-home-pictures-l3ztimmzaeeqfgir.jpg",
     link: "https://drive.google.com/file/d/1QurD9Fm0wlVsFi64wTlfv3xERMz1qt3a/preview",
@@ -23,7 +22,19 @@ const featuredMovies = [
       director: "Jon Watts",
     },
     genre: "Comedy",
-    category: "Telugu Dubbed",
+  },
+  {
+    title: "Tenet",
+    mobileImage: "https://w0.peakpx.com/wallpaper/176/136/HD-wallpaper-tenet-movie-nolan.jpg",
+    desktopImage:
+      "https://images3.alphacoders.com/114/thumb-1920-1147381.jpg",
+    link: "https://ghbrisk.com/e/t2frzvt55hh0",
+    cast: {
+      hero: "John David Washington",
+      heroine: "Elizabeth Debicki",
+      director: "Christopher Nolan",
+    },
+    genre: "Action,Thriller ",
   },
   {
     title: "Guntur Kaaram",
@@ -34,18 +45,6 @@ const featuredMovies = [
     link: "https://drive.google.com/file/d/18K3Hs24z1ZyWPKZkf8SFoO0AmdKEqzDr/preview",
     cast: { hero: "Mahesh Babu", heroine: "Sreeleela", director: "Trivikram" },
     genre: "Drama",
-  },
-  {
-    title: "Premalu",
-    mobileImage: "https://wallpapercave.com/wp/wp13862970.jpg",
-    desktopImage: "https://wallpapercave.com/wp/wp13863069.jpg",
-    link: "https://drive.google.com/file/d/1t1lHWN2-Xdi39CBSIMs8S-qpE5DM3ED1/preview",
-    cast: {
-      hero: "Naslen K. Gafoor",
-      heroine: "Mamitha Baiju",
-      director: "Girish A. D",
-    },
-    genre: "Comedy,Romance",
   },
   {
     title: "Salaar",
@@ -61,17 +60,29 @@ const featuredMovies = [
     genre: "Action",
   },
   {
-    "title": "Animal",
-    "mobileImage": "https://wallpaperaccess.com/full/12247311.jpg",
-    "desktopImage": "https://wallpaperaccess.com/full/12247474.jpg",
-    "link": "https://drive.google.com/file/d/1ci0aK-SPW-lSMGK-RqqwV3ITW0T9gZn4/preview",
-    "cast": {
-        "hero": "Ranbir Kapoor",
-        "heroine": "Rashmika Mandanna",
-        "director": "Sandeep reddy vanga"
+    title: "Animal",
+    mobileImage: "https://wallpaperaccess.com/full/12247311.jpg",
+    desktopImage: "https://wallpaperaccess.com/full/12247474.jpg",
+    link: "https://drive.google.com/file/d/1ci0aK-SPW-lSMGK-RqqwV3ITW0T9gZn4/preview",
+    cast: {
+      hero: "Ranbir Kapoor",
+      heroine: "Rashmika Mandanna",
+      director: "Sandeep reddy vanga",
     },
-    "genre": "Action, Fantasy"
-},
+    genre: "Action, Fantasy",
+  },
+  {
+    title: "Premalu",
+    mobileImage: "https://wallpapercave.com/wp/wp13862970.jpg",
+    desktopImage: "https://wallpapercave.com/wp/wp13863069.jpg",
+    link: "https://drive.google.com/file/d/1t1lHWN2-Xdi39CBSIMs8S-qpE5DM3ED1/preview",
+    cast: {
+      hero: "Naslen K. Gafoor",
+      heroine: "Mamitha Baiju",
+      director: "Girish A. D",
+    },
+    genre: "Comedy,Romance",
+  },
 ];
 
 const HeroSlider = () => {

@@ -1147,6 +1147,18 @@ export const movies = [
             "director": "Sukumar"
         },
         "genre": "Action, Thriller"
+    },
+    {
+        "title": "Tenet",
+        "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/9hMMIbz0Aw9zO2jXoJZPOpBiCtT.jpg",
+        "hoverPoster": "https://lh3.googleusercontent.com/proxy/SPp7cfHA6lXGbYXelRVR5wmMUieovhIFchMiEiP_cz8SHccDFB48d0ilUxBY829SK-vbINHUD-g7qE92o997WkokAgm-wK_gVhsCALQ",
+        "link": "https://ghbrisk.com/e/t2frzvt55hh0",
+        "cast": {
+            "hero": "John David Washington",
+            "heroine": "Elizabeth Debicki",
+            "director": "Christopher Nolan"
+        },
+        "genre": "Action, Thriller"
     }
     
 ];

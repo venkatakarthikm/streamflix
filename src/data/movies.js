@@ -210,7 +210,7 @@ export const movies = [
         "genre": "Drama, Action"
     },
     {
-        "title": "1 - Nenokadine",
+        "title": "1:Nenokkadine",
         "poster": "https://m.media-amazon.com/images/S/pv-target-images/8a1a8002b2265386af2572cb69ddcfce7168b596d7ba4650dc016a5bfc0c4898.jpg",
         "hoverPoster": "https://m.media-amazon.com/images/M/MV5BMTY5OTA1OTY4OV5BMl5BanBnXkFtZTgwODA1NzAwMTE@._V1_.jpg",
         "link": "https://drive.google.com/file/d/1iPBokKWE2S-0Ei5w5hlo0E9roF7jc2mS/preview",
